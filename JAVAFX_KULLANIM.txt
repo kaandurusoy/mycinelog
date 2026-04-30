@@ -1,0 +1,18 @@
+MyCineLog JavaFX Surumu Calistirma
+
+1) Maven kurulu degilse (PowerShell):
+   winget install Apache.Maven
+
+2) Yeni terminal acip proje klasorune gel:
+   cd "C:\Users\KAAN\OneDrive\Masaüstü\MyCineLog"
+
+3) Uygulamayi calistir:
+   mvn javafx:run
+
+Not:
+- Bu yeni arayuz dosyalari:
+  src/main/java/com/mycinelog/MyCineLogFXApp.java
+  src/main/java/com/mycinelog/FilmStore.java
+  src/main/java/com/mycinelog/FilmRecord.java
+  src/main/resources/styles.css
+- Mevcut filmler.txt dosyasini kullanmaya devam eder.
